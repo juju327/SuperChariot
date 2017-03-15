@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CaseEntrepot.cs" />
+    <Compile Include="CaseAllee.cs" />
+    <Compile Include="CaseLivraison.cs" />
+    <Compile Include="CaseRayon.cs" />
+    <Compile Include="Chariot.cs" />
     <Compile Include="Entrepot.cs">
       <SubType>Form</SubType>
     </Compile>
