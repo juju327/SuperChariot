@@ -41,7 +41,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(429, 63);
+            this.button1.Location = new System.Drawing.Point(30, 256);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 35);
             this.button1.TabIndex = 0;
@@ -51,7 +51,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(114, 71);
+            this.textBox1.Location = new System.Drawing.Point(30, 53);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
@@ -60,7 +60,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(123, 45);
+            this.label1.Location = new System.Drawing.Point(39, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 2;
@@ -69,7 +69,7 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(114, 120);
+            this.listBox1.Location = new System.Drawing.Point(30, 102);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 95);
             this.listBox1.TabIndex = 3;
@@ -92,7 +92,7 @@
             // 
             // treeView1
             // 
-            this.treeView1.Location = new System.Drawing.Point(324, 191);
+            this.treeView1.Location = new System.Drawing.Point(228, 53);
             this.treeView1.Name = "treeView1";
             this.treeView1.Size = new System.Drawing.Size(241, 209);
             this.treeView1.TabIndex = 6;
@@ -100,11 +100,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(380, 169);
+            this.label4.Location = new System.Drawing.Point(298, 27);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "Arbre de recherche";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // labelsolution
             // 
